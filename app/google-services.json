@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "158528544105",
+    "project_id": "driver-master-5dea8",
+    "storage_bucket": "driver-master-5dea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158528544105:android:882e0e77dbd839ab1271f8",
+        "android_client_info": {
+          "package_name": "com.example.drivingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158528544105-eae56toeinjcvjgfu8ptbmu10nsr1mlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs1YQ4dsRQFBfJ5shyoI8Vkq1qTXXNhqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158528544105-eae56toeinjcvjgfu8ptbmu10nsr1mlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

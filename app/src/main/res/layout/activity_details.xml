@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="665dp"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Maintain your car’s battery"
+                android:padding="10dp"
+                android:textSize="25sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you don’t use your car for long periods of time, the battery will degrade and go flat.
+
+Consider using a trickle charger to keep the battery topped-up if your car is left in a garage for an extended period of time or a battery conditioner if it appears to hold less charge than usual.
+
+If your battery does go flat, having to jump start a car puts additional strain on the battery and may damage the engine management system and other delicate electronics: a double-whammy of increased wear."
+                android:padding="10dp"
+                />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/kumpan_electric_30d7430ywf4_unsplash" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Change filters regularly"
+                android:padding="10dp"
+                android:textSize="25sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your car’s oil filter and air filter become clogged over time, so it’s important to renew them regularly.
+
+They should be replaced as part of scheduled car servicing, but both are relatively simple jobs – particularly an air filter swap – so you might want to give it a try yourself and save money in the process. You can even get a mobile mechanic to do a service from the convenience of your driveway."
+                android:padding="10dp"
+                />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/air_filter" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Drive smoothly… most of the time"
+                android:padding="10dp"
+                android:textSize="25sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driving with ‘mechanical sympathy’ is something you should practise at all times. That means using the controls of your car while understanding how it works.
+
+Doing so will reduce component wear and you’ll make your fuel go further. Simple things like using the steering wheel, gearbox and pedals smoothly are key, along with looking well ahead to reduce the need for sudden braking."
+                android:padding="10dp"
+                />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/car_rev_counter" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Use your air conditioning"
+                android:padding="10dp"
+                android:textSize="25sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="‘Use it or lose it’ is a phrase that could be applied to air conditioning.
+
+Air-con systems inevitably leak refrigerant gas over time, particularly if they aren’t used regularly.
+
+Leaving your air-con off may save fuel, but you could end up with a bill for air conditioning re-gassing instead (often around £50, available at most garages and fast-fit centres).
+
+And yes, that means occasionally letting your vents blow cold in winter, too.
+
+Find a garage near you if you think you need a re-gas."
+                android:padding="10dp"
+                />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/air_con_regas" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Replace spark plugs and leads"
+                android:padding="10dp"
+                android:textSize="25sp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As cars become ever more complicated, drivers are understandably less inclined to do their own servicing.
+
+However, replacing spark plugs and high-tension leads is another straightforward job you can do yourself to optimise your engine's performance.
+
+Bear in mind that you should always consult your vehicle handbook beforehand and stick to the service schedule though.
+
+When inspecting a spark plug, check that it has a light brown electrode and insulator,
+no signs of melting ,
+no signs of wear or deposits.
+A spark plug in a poor condition either indicates wear over time and needs replacing, or can hint at the condition of your engine. "
+                android:padding="10dp"
+                />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/spark_plugs" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
